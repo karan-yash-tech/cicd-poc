@@ -7,7 +7,7 @@ on:
 jobs:         
   build:
     runs-on: ubuntu-latest
-    environment: Dev   # 👈 This tells Actions to use the "Dev" environment
+    environment: Dev   
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v4

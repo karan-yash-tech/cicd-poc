@@ -6,11 +6,10 @@
   </pluginGroups>
 
   <servers>
-    <!-- connected app's required scopes: https://help.salesforce.com/s/articleView?id=001119708&type=1 -->
     <server>
-      <id>Repository</id> <!-- make sure this matches the serverId property in pom.xml -->
+      <id>api-deploy</id> 
       <username>~~~Client~~~</username>
-      <password>${client.id}~?~${client.secret}</password> <!-- these come from the build.yml and your github secrets -->
+      <password>${client.id}~?~${client.secret}</password> 
     </server>
   </servers>
 
